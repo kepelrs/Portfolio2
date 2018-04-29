@@ -339,7 +339,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .portfolio-modal .modal-content button {
@@ -696,7 +696,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 /* Custom additions */
 .margin-auto {
-  margin: auto;
+  margin: auto !important;
 }
 
 .enhance-visibility {
