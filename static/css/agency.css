@@ -594,7 +594,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url(../img/keyboard-black-notebook-input-163130.jpeg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -709,4 +709,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .enhance-visibility-box {
   box-shadow: 0 0 13px #000;
+}
+
+.fa-jquery::before {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive;
+  content: 'jQ'
+}
+
+.fa-bootstrap::before {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive;
+  content: 'B'
 }
