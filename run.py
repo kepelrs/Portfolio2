@@ -9,11 +9,13 @@ app = Flask(__name__, static_path='/static', static_folder='static', template_fo
 app.config['SERVER_NAME'] = "arockhub.com"
 
 # routing dictionary
-routing = {"movie": "130.204.58.113:3127",
-           "finance": "localhost:3126",
-           "memory": "localhost:3122",
+routing = {"www": "arockhub.com",  # <- 130.204.58.113:80
            "paint": "localhost:3121",
-           "www": "arockhub.com"}  #  <- main ip
+           "memory": "localhost:3122",
+           "arcade": "localhost:3123",
+           "finance": "localhost:3126",
+           "movie": "130.204.58.113:3127"  # <- main ip of arockhub.com
+           }
 
 
 # Ensure responses aren't cached on your browser.
