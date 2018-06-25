@@ -14,7 +14,8 @@ routing = {"www": "arockhub.com",  # <- 130.204.58.113:80
            "memory": "localhost:3122",
            "arcade": "localhost:3123",
            "finance": "localhost:3126",
-           "movie": "130.204.58.113:3127"  # <- main ip of arockhub.com
+           "movie": "130.204.58.113:3127",  # <- main ip of arockhub.com
+           "fmj": "localhost:3128"
            }
 
 
