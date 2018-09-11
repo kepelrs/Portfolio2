@@ -13,6 +13,7 @@ routing = {"www": "arockhub.com",  # <- 130.204.58.113:80
            "paint": "localhost:3121",
            "memory": "localhost:3122",
            "arcade": "localhost:3123",
+           "wst": "localhost:3200",
            "finance": "localhost:3126",
            "movie": "130.204.58.113:3127",  # <- main ip of arockhub.com
            "fmj": "localhost:3128"
